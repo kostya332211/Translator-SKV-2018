@@ -1,0 +1,18 @@
+main   
+{
+<int b,k,a>
+<a = 3>
+<k=3>
+<b=10>
+<string z>
+<z='qwqwq'>
+<a = call MaxNum(b, a)>
+<OutNum a>
+<a = call MinNum(a, a)>
+<OutNum a>
+<a = call Strlen(z)>
+<OutNum a>
+<a = call PowNum(a,k)>
+<OutNum a>
+
+} 

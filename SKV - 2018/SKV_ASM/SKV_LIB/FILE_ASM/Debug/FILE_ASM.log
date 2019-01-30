@@ -1,0 +1,3 @@
+﻿  Assembling LP_ASM01.asm...
+LP_ASM01.asm(55): warning A6004: procedure argument or local not referenced : y_bb
+  FILE_ASM.vcxproj -> D:\AAAAAAAAAAAAAAA\SKV - 2018\SKV_ASM\SKV_LIB\Debug\FILE_ASM.exe

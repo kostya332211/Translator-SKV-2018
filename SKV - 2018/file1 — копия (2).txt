@@ -1,0 +1,43 @@
+int function aa(int a, int b)
+{
+<int c>
+<c = a+b>
+<return c>
+}
+
+main   
+{
+<int a, b, c,from,to>
+<string d,e>
+<d = 'SKV-2018'>
+<e = 'a less b'>
+<a = 5>
+<b = 10>
+<  c = 100-b*(10+a) >
+
+
+<OutNum  c>
+<c= call aa(a,100) >
+<OutNum  c>
+<OutStr d>
+<d = call bb(777,d)>
+<OutStr d>
+<InputNum from>
+<InputNum to>
+<if (a less b)>
+<[>
+<OutStr e>
+<]>
+<while (from notequal to)>
+<[>
+<from = from +1>
+<OutNum from>
+<]>
+} 
+
+string function bb(string y)
+{
+<string z>
+<z = 'SKV-2019'>
+<return z>
+}

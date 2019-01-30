@@ -1,0 +1,226 @@
+Шаг: Правило             Входная лента                 Стек               
+0   : S->m{<N}S           m{<ti><ti><i=cb(i,i)><ni>     S$                  
+0   : SAVESTATE:          1
+0   :                     m{<ti><ti><i=cb(i,i)><ni>     m{<N}S$             
+1   :                     {<ti><ti><i=cb(i,i)><ni><     {<N}S$              
+2   :                     <ti><ti><i=cb(i,i)><ni><i     <N}S$               
+3   :                     ti><ti><i=cb(i,i)><ni><i=     N}S$                
+4   : N->tI><N            ti><ti><i=cb(i,i)><ni><i=     N}S$                
+4   : SAVESTATE:          2
+4   :                     ti><ti><i=cb(i,i)><ni><i=     tI><N}S$            
+5   :                     i><ti><i=cb(i,i)><ni><i=c     I><N}S$             
+6   : I->i                i><ti><i=cb(i,i)><ni><i=c     I><N}S$             
+6   : SAVESTATE:          3
+6   :                     i><ti><i=cb(i,i)><ni><i=c     i><N}S$             
+7   :                     ><ti><i=cb(i,i)><ni><i=ca     ><N}S$              
+8   :                     <ti><i=cb(i,i)><ni><i=ca(     <N}S$               
+9   :                     ti><i=cb(i,i)><ni><i=ca(i     N}S$                
+10  : N->tI><N            ti><i=cb(i,i)><ni><i=ca(i     N}S$                
+10  : SAVESTATE:          4
+10  :                     ti><i=cb(i,i)><ni><i=ca(i     tI><N}S$            
+11  :                     i><i=cb(i,i)><ni><i=ca(i,     I><N}S$             
+12  : I->i                i><i=cb(i,i)><ni><i=ca(i,     I><N}S$             
+12  : SAVESTATE:          5
+12  :                     i><i=cb(i,i)><ni><i=ca(i,     i><N}S$             
+13  :                     ><i=cb(i,i)><ni><i=ca(i,i     ><N}S$              
+14  :                     <i=cb(i,i)><ni><i=ca(i,i)     <N}S$               
+15  :                     i=cb(i,i)><ni><i=ca(i,i)>     N}S$                
+16  : N->i=V><N           i=cb(i,i)><ni><i=ca(i,i)>     N}S$                
+16  : SAVESTATE:          6
+16  :                     i=cb(i,i)><ni><i=ca(i,i)>     i=V><N}S$           
+17  :                     =cb(i,i)><ni><i=ca(i,i)><     =V><N}S$            
+18  :                     cb(i,i)><ni><i=ca(i,i)><n     V><N}S$             
+19  : V->ci(Z)            cb(i,i)><ni><i=ca(i,i)><n     V><N}S$             
+19  : SAVESTATE:          7
+19  :                     cb(i,i)><ni><i=ca(i,i)><n     ci(Z)><N}S$         
+20  :                     b(i,i)><ni><i=ca(i,i)><ni     i(Z)><N}S$          
+21  : TS_NOK/NS_NORULECHAIN
+21  : RESSTATE            
+21  :                     cb(i,i)><ni><i=ca(i,i)><n     V><N}S$             
+22  : V->cp(i,i)          cb(i,i)><ni><i=ca(i,i)><n     V><N}S$             
+22  : SAVESTATE:          7
+22  :                     cb(i,i)><ni><i=ca(i,i)><n     cp(i,i)><N}S$       
+23  :                     b(i,i)><ni><i=ca(i,i)><ni     p(i,i)><N}S$        
+24  : TS_NOK/NS_NORULECHAIN
+24  : RESSTATE            
+24  :                     cb(i,i)><ni><i=ca(i,i)><n     V><N}S$             
+25  : V->ca(i,i)          cb(i,i)><ni><i=ca(i,i)><n     V><N}S$             
+25  : SAVESTATE:          7
+25  :                     cb(i,i)><ni><i=ca(i,i)><n     ca(i,i)><N}S$       
+26  :                     b(i,i)><ni><i=ca(i,i)><ni     a(i,i)><N}S$        
+27  : TS_NOK/NS_NORULECHAIN
+27  : RESSTATE            
+27  :                     cb(i,i)><ni><i=ca(i,i)><n     V><N}S$             
+28  : V->cb(i,i)          cb(i,i)><ni><i=ca(i,i)><n     V><N}S$             
+28  : SAVESTATE:          7
+28  :                     cb(i,i)><ni><i=ca(i,i)><n     cb(i,i)><N}S$       
+29  :                     b(i,i)><ni><i=ca(i,i)><ni     b(i,i)><N}S$        
+30  :                     (i,i)><ni><i=ca(i,i)><ni>     (i,i)><N}S$         
+31  :                     i,i)><ni><i=ca(i,i)><ni><     i,i)><N}S$          
+32  :                     ,i)><ni><i=ca(i,i)><ni><i     ,i)><N}S$           
+33  :                     i)><ni><i=ca(i,i)><ni><i=     i)><N}S$            
+34  :                     )><ni><i=ca(i,i)><ni><i=c     )><N}S$             
+35  :                     ><ni><i=ca(i,i)><ni><i=cd     ><N}S$              
+36  :                     <ni><i=ca(i,i)><ni><i=cd(     <N}S$               
+37  :                     ni><i=ca(i,i)><ni><i=cd(i     N}S$                
+38  : N->ni><N            ni><i=ca(i,i)><ni><i=cd(i     N}S$                
+38  : SAVESTATE:          8
+38  :                     ni><i=ca(i,i)><ni><i=cd(i     ni><N}S$            
+39  :                     i><i=ca(i,i)><ni><i=cd(i)     i><N}S$             
+40  :                     ><i=ca(i,i)><ni><i=cd(i)>     ><N}S$              
+41  :                     <i=ca(i,i)><ni><i=cd(i)><     <N}S$               
+42  :                     i=ca(i,i)><ni><i=cd(i)><n     N}S$                
+43  : N->i=V><N           i=ca(i,i)><ni><i=cd(i)><n     N}S$                
+43  : SAVESTATE:          9
+43  :                     i=ca(i,i)><ni><i=cd(i)><n     i=V><N}S$           
+44  :                     =ca(i,i)><ni><i=cd(i)><ni     =V><N}S$            
+45  :                     ca(i,i)><ni><i=cd(i)><ni>     V><N}S$             
+46  : V->ci(Z)            ca(i,i)><ni><i=cd(i)><ni>     V><N}S$             
+46  : SAVESTATE:          10
+46  :                     ca(i,i)><ni><i=cd(i)><ni>     ci(Z)><N}S$         
+47  :                     a(i,i)><ni><i=cd(i)><ni><     i(Z)><N}S$          
+48  : TS_NOK/NS_NORULECHAIN
+48  : RESSTATE            
+48  :                     ca(i,i)><ni><i=cd(i)><ni>     V><N}S$             
+49  : V->cp(i,i)          ca(i,i)><ni><i=cd(i)><ni>     V><N}S$             
+49  : SAVESTATE:          10
+49  :                     ca(i,i)><ni><i=cd(i)><ni>     cp(i,i)><N}S$       
+50  :                     a(i,i)><ni><i=cd(i)><ni><     p(i,i)><N}S$        
+51  : TS_NOK/NS_NORULECHAIN
+51  : RESSTATE            
+51  :                     ca(i,i)><ni><i=cd(i)><ni>     V><N}S$             
+52  : V->ca(i,i)          ca(i,i)><ni><i=cd(i)><ni>     V><N}S$             
+52  : SAVESTATE:          10
+52  :                     ca(i,i)><ni><i=cd(i)><ni>     ca(i,i)><N}S$       
+53  :                     a(i,i)><ni><i=cd(i)><ni><     a(i,i)><N}S$        
+54  :                     (i,i)><ni><i=cd(i)><ni><i     (i,i)><N}S$         
+55  :                     i,i)><ni><i=cd(i)><ni><i=     i,i)><N}S$          
+56  :                     ,i)><ni><i=cd(i)><ni><i=c     ,i)><N}S$           
+57  :                     i)><ni><i=cd(i)><ni><i=cp     i)><N}S$            
+58  :                     )><ni><i=cd(i)><ni><i=cp(     )><N}S$             
+59  :                     ><ni><i=cd(i)><ni><i=cp(i     ><N}S$              
+60  :                     <ni><i=cd(i)><ni><i=cp(i,     <N}S$               
+61  :                     ni><i=cd(i)><ni><i=cp(i,i     N}S$                
+62  : N->ni><N            ni><i=cd(i)><ni><i=cp(i,i     N}S$                
+62  : SAVESTATE:          11
+62  :                     ni><i=cd(i)><ni><i=cp(i,i     ni><N}S$            
+63  :                     i><i=cd(i)><ni><i=cp(i,i)     i><N}S$             
+64  :                     ><i=cd(i)><ni><i=cp(i,i)>     ><N}S$              
+65  :                     <i=cd(i)><ni><i=cp(i,i)><     <N}S$               
+66  :                     i=cd(i)><ni><i=cp(i,i)><n     N}S$                
+67  : N->i=V><N           i=cd(i)><ni><i=cp(i,i)><n     N}S$                
+67  : SAVESTATE:          12
+67  :                     i=cd(i)><ni><i=cp(i,i)><n     i=V><N}S$           
+68  :                     =cd(i)><ni><i=cp(i,i)><ni     =V><N}S$            
+69  :                     cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+70  : V->ci(Z)            cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+70  : SAVESTATE:          13
+70  :                     cd(i)><ni><i=cp(i,i)><ni>     ci(Z)><N}S$         
+71  :                     d(i)><ni><i=cp(i,i)><ni>}     i(Z)><N}S$          
+72  : TS_NOK/NS_NORULECHAIN
+72  : RESSTATE            
+72  :                     cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+73  : V->cp(i,i)          cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+73  : SAVESTATE:          13
+73  :                     cd(i)><ni><i=cp(i,i)><ni>     cp(i,i)><N}S$       
+74  :                     d(i)><ni><i=cp(i,i)><ni>}     p(i,i)><N}S$        
+75  : TS_NOK/NS_NORULECHAIN
+75  : RESSTATE            
+75  :                     cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+76  : V->ca(i,i)          cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+76  : SAVESTATE:          13
+76  :                     cd(i)><ni><i=cp(i,i)><ni>     ca(i,i)><N}S$       
+77  :                     d(i)><ni><i=cp(i,i)><ni>}     a(i,i)><N}S$        
+78  : TS_NOK/NS_NORULECHAIN
+78  : RESSTATE            
+78  :                     cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+79  : V->cb(i,i)          cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+79  : SAVESTATE:          13
+79  :                     cd(i)><ni><i=cp(i,i)><ni>     cb(i,i)><N}S$       
+80  :                     d(i)><ni><i=cp(i,i)><ni>}     b(i,i)><N}S$        
+81  : TS_NOK/NS_NORULECHAIN
+81  : RESSTATE            
+81  :                     cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+82  : V->cd(i)            cd(i)><ni><i=cp(i,i)><ni>     V><N}S$             
+82  : SAVESTATE:          13
+82  :                     cd(i)><ni><i=cp(i,i)><ni>     cd(i)><N}S$         
+83  :                     d(i)><ni><i=cp(i,i)><ni>}     d(i)><N}S$          
+84  :                     (i)><ni><i=cp(i,i)><ni>}.     (i)><N}S$           
+85  :                     i)><ni><i=cp(i,i)><ni>}.      i)><N}S$            
+86  :                     )><ni><i=cp(i,i)><ni>}.       )><N}S$             
+87  :                     ><ni><i=cp(i,i)><ni>}.        ><N}S$              
+88  :                     <ni><i=cp(i,i)><ni>}.         <N}S$               
+89  :                     ni><i=cp(i,i)><ni>}.          N}S$                
+90  : N->ni><N            ni><i=cp(i,i)><ni>}.          N}S$                
+90  : SAVESTATE:          14
+90  :                     ni><i=cp(i,i)><ni>}.          ni><N}S$            
+91  :                     i><i=cp(i,i)><ni>}.           i><N}S$             
+92  :                     ><i=cp(i,i)><ni>}.            ><N}S$              
+93  :                     <i=cp(i,i)><ni>}.             <N}S$               
+94  :                     i=cp(i,i)><ni>}.              N}S$                
+95  : N->i=V><N           i=cp(i,i)><ni>}.              N}S$                
+95  : SAVESTATE:          15
+95  :                     i=cp(i,i)><ni>}.              i=V><N}S$           
+96  :                     =cp(i,i)><ni>}.               =V><N}S$            
+97  :                     cp(i,i)><ni>}.                V><N}S$             
+98  : V->ci(Z)            cp(i,i)><ni>}.                V><N}S$             
+98  : SAVESTATE:          16
+98  :                     cp(i,i)><ni>}.                ci(Z)><N}S$         
+99  :                     p(i,i)><ni>}.                 i(Z)><N}S$          
+100 : TS_NOK/NS_NORULECHAIN
+100 : RESSTATE            
+100 :                     cp(i,i)><ni>}.                V><N}S$             
+101 : V->cp(i,i)          cp(i,i)><ni>}.                V><N}S$             
+101 : SAVESTATE:          16
+101 :                     cp(i,i)><ni>}.                cp(i,i)><N}S$       
+102 :                     p(i,i)><ni>}.                 p(i,i)><N}S$        
+103 :                     (i,i)><ni>}.                  (i,i)><N}S$         
+104 :                     i,i)><ni>}.                   i,i)><N}S$          
+105 :                     ,i)><ni>}.                    ,i)><N}S$           
+106 :                     i)><ni>}.                     i)><N}S$            
+107 :                     )><ni>}.                      )><N}S$             
+108 :                     ><ni>}.                       ><N}S$              
+109 :                     <ni>}.                        <N}S$               
+110 :                     ni>}.                         N}S$                
+111 : N->ni><N            ni>}.                         N}S$                
+111 : SAVESTATE:          17
+111 :                     ni>}.                         ni><N}S$            
+112 :                     i>}.                          i><N}S$             
+113 :                     >}.                           ><N}S$              
+114 :                     }.                            <N}S$               
+115 : TS_NOK/NS_NORULECHAIN
+115 : RESSTATE            
+115 :                     ni>}.                         N}S$                
+116 : N->ni>              ni>}.                         N}S$                
+116 : SAVESTATE:          17
+116 :                     ni>}.                         ni>}S$              
+117 :                     i>}.                          i>}S$               
+118 :                     >}.                           >}S$                
+119 :                     }.                            }S$                 
+120 :                     .                             S$                  
+121 : S->.                .                             S$                  
+121 : SAVESTATE:          18
+121 :                     .                             .$                  
+122 :                                                   $                   
+123 : LENTA_END           
+124 : -------> NS_LENTA_END
+--------------------------------------------------------------
+: всего лексем 70, синтаксический анализ выполнен без ошибок
+0   : S->m{<N}S           
+3   : N->tI><N            
+4   : I->i                
+7   : N->tI><N            
+8   : I->i                
+11  : N->i=V><N           
+13  : V->cb(i,i)          
+22  : N->ni><N            
+26  : N->i=V><N           
+28  : V->ca(i,i)          
+37  : N->ni><N            
+41  : N->i=V><N           
+43  : V->cd(i)            
+50  : N->ni><N            
+54  : N->i=V><N           
+56  : V->cp(i,i)          
+65  : N->ni>              
+69  : S->.                

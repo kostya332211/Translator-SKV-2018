@@ -1,0 +1,3 @@
+﻿  In.cpp
+d:\c++ проекты\14 до моих косяков\lp_lab10\in.cpp(305): warning C4838: преобразование из "unsigned int" в "int" требует сужающего преобразования
+  LP_LAB10.vcxproj -> D:\c++ проекты\14 до моих косяков\LP_LAB10\x64\Debug\LP_LAB10.exe

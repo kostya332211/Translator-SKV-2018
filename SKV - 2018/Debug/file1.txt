@@ -1,0 +1,16 @@
+main{
+
+
+
+<int a>
+<string z>
+
+<a = call MaxNum(a, a)>
+<OutNum a>
+<a = call MinNum(a, a)>
+<OutNum a>
+<a= call Strlen(z)>
+<OutNum a>
+<a = call PowNum(a,a)>
+<OutNum a>
+} 
